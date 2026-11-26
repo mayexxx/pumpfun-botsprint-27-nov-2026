@@ -1,10 +1,10 @@
 import { runBot, LAMPORTS_PER_SOL } from './vendor/makefun-bot.ts';
 
-const BUY_LAMPORTS = 50000000n;
-const STOP_LOSS_BPS = 1000;
+const BUY_LAMPORTS = 10000000n;
+const STOP_LOSS_BPS = 1500;
 
-const TAKE_PROFIT_BPS = 3000;
-const ENTRY_MOMENTUM_BPS = 800;
+const TAKE_PROFIT_BPS = 10000;
+const ENTRY_MOMENTUM_BPS = 1000;
 const MIN_TRADES_FOR_ENTRY = 3;
 const MIN_BUY_LAMPORTS = LAMPORTS_PER_SOL / 100n;
 const MAX_POSITIONS = 5;
